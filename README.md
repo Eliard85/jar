@@ -1,7 +1,7 @@
 # jar
 
-для автозапуска
+для автозапуска в hive
 
 crontab -e
 
-@reboot путь_до/cpustart.sh
+@reboot /root/jar/cpustart.sh
