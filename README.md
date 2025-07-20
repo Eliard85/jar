@@ -1,3 +1,5 @@
 # jar
 
-crontab -e путь_до/cpustart.sh
+для автозапуска
+crontab -e
+@reboot путь_до/cpustart.sh
