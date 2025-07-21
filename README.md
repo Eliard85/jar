@@ -2,4 +2,4 @@
 
 для автозапуска в hive
 
-(crontab -l 2>/dev/null; echo "@reboot /root/jar/cpustart.sh") | crontab -
+(crontab -l 2>/dev/null; echo "@reboot /jar/cpustart.sh") | crontab -
